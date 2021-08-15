@@ -11,7 +11,7 @@ public class Calc {
 	}
 	public static int substact(int m, int n) {
 		
-		return m+n;
+		return m-n;
 				
 		
 	}
