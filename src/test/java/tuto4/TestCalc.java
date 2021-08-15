@@ -13,11 +13,16 @@ import junit.framework.TestSuite;
 public class TestCalc 
     extends TestCase
 {
+	  Calc cal=new Calc();
 	  public void testAdd(){
-		  Calc cal=new Calc();
-            int r=cal.add(1,0);
+		 int r=cal.add(1,0);
 	        Assert.assertEquals(1,r);
 	    }
+	  
+	  public void testSubtract(){
+			 int r=cal.substact(5,3);
+		        Assert.assertEquals(2,r);
+		    }
 	  
 
 }
